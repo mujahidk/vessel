@@ -7,9 +7,10 @@
 
 - Install Docker
 - Clone this repository
-- Run
+- Run below shell command
+
 ```bash
-docker-compose up -d --build
+./build-all.sh
 ```
 
 ## Deployment
