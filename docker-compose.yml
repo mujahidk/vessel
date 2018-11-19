@@ -4,3 +4,5 @@ services:
     build: api-gateway
     ports: 
       - "80:80"
+  question-service:
+    build: question-service
