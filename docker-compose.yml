@@ -6,3 +6,5 @@ services:
       - "80:80"
   question-service:
     build: question-service
+    ports: 
+      - "9090:8080" # TODO: Remove it after configuring gateway.
