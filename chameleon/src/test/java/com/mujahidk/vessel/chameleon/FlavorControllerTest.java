@@ -28,7 +28,7 @@ public class FlavorControllerTest {
 		mvc.perform(get("/flavors/something").contentType("text/html"))
 				.andExpect(status().isOk())
 				.andExpect(content().contentType("text/plain;charset=UTF-8"))
-				.andExpect(content().string("response entity something"));
+				.andExpect(content().string("Http Get Request for [id: something]"));
 	}
 
 	@Test
@@ -41,6 +41,6 @@ public class FlavorControllerTest {
 		mvc.perform(request.content("post and put body").contentType("text/plain"))
 				.andExpect(status().isOk())
 				.andExpect(content().contentType("text/plain;charset=UTF-8"))
-				.andExpect(content().string("response entity something"));
+				.andExpect(content().string("Http Get Request for [id: something]"));
 	}
 }
