@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./mvnw clean package
+
+docker build -t mujahidk/titan:develop .
