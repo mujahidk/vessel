@@ -6,7 +6,7 @@
 
 	<groupId>com.mujahidk.vessel</groupId>
 	<artifactId>question</artifactId>
-	<version>0.0.1</version>
+	<version>develop-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>Question</name>
@@ -22,7 +22,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>9</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
