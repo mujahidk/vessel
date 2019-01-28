@@ -1,12 +1,12 @@
 version: "3"
 services:
-  databse:
+  database:
     build: database
   gateway:
     build: api-gateway
     ports: 
       - "9090:8080"
-  question-service:
+  question:
     build: question-service
   titan:
     image: mujahidk/titan:develop
