@@ -1,7 +1,11 @@
 # Vessel Project
 
 1. API Gateway
+ - Url rewrite
+ - HTTP headers (X-Forwarded-For, X-RequestId etc)
 2. Reverse Proxy
+3. Quartz scheduler
+4. Hibernate 2nd level caching
 
 ## Setting up
 
