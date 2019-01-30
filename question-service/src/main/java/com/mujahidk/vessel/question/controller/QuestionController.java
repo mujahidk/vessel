@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mujahidk.vessel.question.aop.LogTime;
-import com.mujahidk.vessel.question.persistence.Question;
+import com.mujahidk.vessel.question.persistence.entity.Question;
 
 @RestController
 public class QuestionController {
