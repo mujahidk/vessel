@@ -7,3 +7,4 @@ ENV JAVA_OPTS="-Duser.timezone=UTC"
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 COPY target/titan-develop-SNAPSHOT.war /usr/local/tomcat/webapps/titan.war
+
