@@ -10,3 +10,5 @@ services:
     build: question-service
   titan:
     image: mujahidk/titan:develop
+  geo:
+    image: vessel/geo:0.1
